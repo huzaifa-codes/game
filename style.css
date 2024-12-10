@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0c0a0a;
+}
+img {
+    margin: 10px;
+    cursor: pointer;
+}
+h1 {
+    margin: 5px;
+}
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px; 
+    margin: 20px 0;
+}
+.you-1, #com {
+    text-align: center;
+    border: 2px solid #333; 
+    border-radius: 10px; 
+    padding: 40px; 
+    background-color: #d11d1d; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+}
+.you-1{
+    width: 150px;
+}
+
+.h-1{
+    background-color: #e02424;
+    width: 1400px;
+    text-align: center;
+
+}
